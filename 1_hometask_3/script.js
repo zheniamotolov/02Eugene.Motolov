@@ -1,51 +1,39 @@
-'use strict'
-$(document).ready(function(){
-    var testNumLength = function(number) {
-        if (number.length > 9) {
-            totaldiv.text(number.substr(number.length-9,9));
-            if (number.length > 15) {
-                number = "";
-                totaldiv.text("Err");
-            }
+'use strict';
+function check_number(input_num) {
+    if (isNaN(Number(input_num))) {
+        return false;
+    }
+    else{
+       return true;
+    }
+}
+function check_operator() {
+    switch (input_operator) {
+        case '/':
+            return input_num_1 / input_num_2;
+        case'+':
+            return input_num_1 + input_num_2;
+        case'-':
+            return input_num_1 - input_num_2;
+        case'*':
+            return input_num_1 * input_num_2;
+        default:
+            console.log("Неверная запись оператора");
+            break;
+    }
+    return false;
+}
+function result() {
+    if (check_number(input_num_1) && check_number(input_num_1)) {
+        if (check_operator()||check_operator()==0) {
+            return check_operator();
         }
-    };
-    var number = "";
-    var newnumber = "";
-    var operator = "";
-    var totaldiv = $("#total");
-    totaldiv.text("0");
-    $("#numbers a").not("#clear,#clearall").click(function(){
-        number += $(this).text();
-        totaldiv.text(number);
-        testNumLength(number);
-    });
-    $("#operators a").not("#equals").click(function(){
-        operator = $(this).text();
-        newnumber = number;
-        number = "";
-        totaldiv.text("0");
-    });
-    $("#clear,#clearall").click(function(){
-        number = "";
-        totaldiv.text("0");
-        if ($(this).attr("id") === "clearall") {
-            newnumber = "";
-        }
-    });
-    //Add your last .click() here!
-    $("#equals").click(function(){
-        if (operator === "+"){
-            number = (parseInt(number, 10) + parseInt(newnumber,10)).toString(10);
-        } else if (operator === "-"){
-            number = (parseInt(newnumber, 10) - parseInt(number,10)).toString(10);
-        } else if (operator === "÷"){
-            number = (parseInt(newnumber, 10) / parseInt(number,10)).toString(10);
-        } else if (operator === "×"){
-            number = (parseInt(newnumber, 10) * parseInt(number,10)).toString(10);
-        }
-        totaldiv.text(number);
-        testNumLength(number);
-        number = "";
-        newnumber = "";
-    });
-});
+    }
+    else{
+        console.log ("Неверная щзапись числа");
+    }
+}
+var input_num_1 = Number(prompt("Enter a number", 'Example:101'));
+var input_operator = prompt("Enter a operator", 'Example:101');
+var input_num_2 = Number(prompt("Enter a number", 'Example:101'));
+console.log(result());

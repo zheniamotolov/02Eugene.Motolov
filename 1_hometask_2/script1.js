@@ -45,8 +45,8 @@ function check_braces(input_text){
 }
 var input_text= prompt("Enter a number", 'Example:101');
 if(check_braces(input_text)){
-    console.log("yeah");
+    alert("yeah");
 }
 else{
-    console.log("nop");
+    alert("nop");
 }
