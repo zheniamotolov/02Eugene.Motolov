@@ -1,11 +1,10 @@
 'use strict';
-alert("Ввдеите номер мобильного телефона ");
-var phone_number = prompt("Введите номер:");
-var regex = /^((\+(\(375\)|(375))\-?)|(8\-?0))((29)|(33)|(25)|(44))\-?[0-9][0-9][0-9]\-?[0-9][0-9]\-?[0-9][0-9]$/.test(regex);
-if (regex) {
-    alert("Номер введен правльно ");
+var telephone_number=prompt("Введите номер телефона");
 
-}
-else{
-    alert("Номер введен неправльно ")
-}
+if(/\+375[\(\-\s]?((25)|(29)|(33)|(44))[\-\)\s]?[\d\-\s]{7,9}/g.test(telephone_number))
+    alert("Telephone number is correct");
+else
+    alert("!!!!!!!Telephone number is not correct!!!!!!!!!!");
+//+375(29)8862735
+//+375-29-886-27-35
+//+375 29 886 27 35
