@@ -1,6 +1,7 @@
 'use strict';
 //Как остановть выполненеие скрипта
-//Почему retutn не завершает функцию
+//Почему return не завершает функцию
+//Ввод текста через консоль
 function initialize_array(n, mediana, implementation) {
     var array = [];
     var i=0;
