@@ -1,0 +1,14 @@
+
+.wrapper {
+    margin: 0 auto;
+    width:400px;
+}
+#messages p{
+    padding: 15px;
+    border: 1px solid #d6e9c6;
+    border-radius: 15px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    margin:10px 0;
+}
+
