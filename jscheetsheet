@@ -1,0 +1,486 @@
+1) Укорочение массива
+arr=[1.2.3.4.5.65];
+arr.length=3;
+arr=[1,2,3];
+
+2) Очистка массива arr.length=0;
+
+3)var someProp = "propName";
+var myObj = {
+  propName: "Some Value"
+}
+myObj[someProp]; // "Some Value";
+4)Удаление свойства обьекта ;
+delete Ourdog.bark;
+
+5)Переменная дл\я обращенияя к свойству обьекта  var val="title"
+    var menu = {
+      width: 300,
+      height: 200,
+      "title": "Menu"
+    };
+    alert(menu[val])
+6) if the property of a given object exists or not.
+var myObj = {
+  top: "hat",
+  bottom: "pants"
+};
+myObj.hasOwnProperty("top");    // true
+myObj.hasOwnProperty("middle"); // false
+
+7) Generate random number within a range
+Math.floor(Math.random() * (max - min + 1)) + min
+
+[min, max] - our range
+
+8)Number of occurances of word in String
+var testString = "Ada Lovelace and Charles Babbage designed the first computer and the software that would
+
+have run on it.";
+var expression = /and/gi;  // Change this Line
+// This code counts the matches of expression in testString
+var andCount = testString.match(expression).length;//2
+
+9)Constructor
+ var Car()={
+this.a=12,
+this.b=123};
+
+var NewCAr= new Car();
+
+10) Изменене всех элементов массива
+var timesFour = oldArray.map(function(val){
+  return val * 4;
+});// каждый элемент на *4
+
+11)REgular expressions
+var testString = "Ada Lovelace and Charles Babbage designed the first computer and the software that would have run on it.";
+
+// Example
+var expressionToGetSoftware = /software/gi;
+var softwareCount = testString.match(expressionToGetSoftware).length;
+
+
+// Only change code below this line.
+
+var expression = /and/gi;  // Change this Line
+
+// Only change code above this line
+
+// This code counts the matches of expression in testString
+var andCount = testString.match(expression).length;
+
+12) Programm finding palindroms\
+
+  function palindrome(str) {
+  /* remove special characters, spaces and make lowercase*/
+  var removeChar = str.replace(/[^A-Z0-9]/ig, "").toLowerCase();
+
+  /* reverse removeChar for comparison*/
+  var checkPalindrome = removeChar.split('').reverse().join('');
+
+  /* Check to see if str is a Palindrome*/
+   return (removeChar === checkPalindrome);
+}
+
+
+
+palindrome("eye");
+
+
+13)Replace in String
+
+alert( '12-34-56'.replace( /-/g, ":" ) )  // 12:34:56
+
+
+14)Slice of String
+
+  var str = "Hello world!";
+    var res = str.substr(1, 8);//ello wor
+
+
+15)endsWith
+метод позволяет вам определять, заканчивается ли или нет строка символами другой строки.
+
+var str = 'Быть или не быть, вот в чём вопрос.';
+
+console.log(str.endsWith('вопрос.'));   // true
+
+
+16)
+Falcy values:false, null, 0, "", undefined, and NaN.
+
+function bouncer(arr) {
+  return arr.filter(Boolean);
+}
+bouncer([false, null, 0, "", undefined, and NaN.])//return [];
+
+
+
+17) В javascript нет перегрузки функций может быть только одна функция
+Может быть только одна функция с именем log, которая вызывается с любыми аргументами.
+
+18)Доступ к «лишним» аргументам псевдо-массив Arguments;
+
+
+оступ к ним осуществляется через «псевдо-массив» arguments.
+
+Он содержит список аргументов по номерам: arguments[0], arguments[1]…, а также свойство length.
+
+
+19) Function copy
+
+
+United obj dst with src1, src2
+copy(dst, src1, src2…)
+Копирует свойства из объектов src1, src2,... в объект dst. Возвращает получившийся объект.
+
+
+
+
+20) Copy object dst to src
+var userClone = copy({}, user);
+
+
+21)Метод charCodeAt() возвращает числовое значение Юникода для символа по указанному
+'ABC'.charCodeAt(0); // вернёт 65
+
+
+22)The static String.fromCharCode() method returns a string created by
+using the specified sequence of Unicode values.
+
+
+String.fromCharCode(65, 66, 67);  // "ABC"
+
+23)<script src="script.js"></script>
+атрибуты: defer- последовательность выполение скриптов
+          async-параллельно
+24)var a ={1,3,4,5,6)
+       a==6
+25)type number consider: Infinity and NaN
+26) Преобразование типов - 1)явное и 2) неявное
+   "1"+1 -string
+   "1"*1-number
+26)var a =Number("45") - преобразование в число
+   var a=parseInt("3454") -
+27)for (var i in obj)- для объектов и для массивов
+28)charCode('g')- code of sumbol
+   endsWith('s')- check if string ends with sumbol 's'
+   trim -стирает все пробелы
+29)NaN===NaN - false
+
+
+30)
+'use strict '
+var macine = {
+    km: 17500,
+    maxspeed: 170,
+    mark: "Audi",
+    color: "blue",
+
+    drive: function () {
+
+    },
+    crash: function () {
+
+    },
+    run:function(n){
+
+    }
+};
+31)Создание массива js
+   a)var a=new Array(n);
+   b)var a =new Array(1,2,3,4)//??????
+   c)var a = [1,2,3,4]
+
+32)
+var a = true;
+alert( a ); // "true"
+33)
+unshift-добавление в начало
+reverse -обратный порядок массива
+shift - удаление элементв пирвого ивывод его
+34)Math contain -- ceil,PI,E
+35)Create object Date
+  var d = new Date();//current date
+  d.getDay();
+  d.getYear();// 1900
+  d.getFullYear();
+  d.getMonth();
+  d.getHours();
+  d.getMinutes();
+  d.getTime(cuurent -1970)
+36)REgular Expressions
+  Flags:
+  a)i-no matter what register is used;
+  b)g-все всхождения
+  c)m- без разделения строк
+37)function expression - динамическое иниуиализация
+38)var f= new Function("alert(x)", "x" );<=>functoin(x){alert(x)}
+39)Обход массивов:arr[].forEach(function(a){});//a- elemeent  of array
+40)[1,2,3,4].map(funvction(a){return a*2;})
+41)arra[].filter(function(a){return a%2});//только те элементы которые дают true
+42)var arr = [1, -1, 2, -2, 3];
+function isPositive(number) {
+  return number > 0;
+}
+alert( arr.every(isPositive) ); // false, не все положительные
+alert( arr.some(isPositive) ); // true, есть хоть одно положительное
+43)переберающее функции пропускае undefined
+44) Замыкание -тело функции , область видимости(для var )
+45)Внешняя функция не имеет доступ к переменным внутренней функции
+c=(function(x){}(10)==c()
+45)lexical enviroment-контекст это то объект метолом которого является вызываемя функция==LexicalEnviroment
+46)function expression -то замыкание в контесте которого задан функция
+  var 0={
+name:"Alex",
+sayName:function(){
+alert(this.name);
+}
+};
+o.sayName();
+обработчика конекста имею тот объект который вызвал функцию
+47)arguments -это не массив;
+48)var ob={};
+   ob["name"]="alex"<=>ob.name;
+
+...................................................................................
+
+1) x=10- переменная созданная таким образом станет свойтсвом не данного замыкания а свойствомобъекта window
+window.x==10 true
+parseFloat();
+2) window.parseFloat(x)- быстрее чем без window
+3)
+.innerWidth растояние от левого верхнего угла
+.innerHeight
+.open(s)- откроет вкладку или загрузит страеицу по адресу в параметрах
+.close()-закроет вебстраницу фрейм
+.print()- распечатает страницу
+.scrollTo(x,y)-прокрутит страницу в указанных координатах в px от 0
+.scrollBy(x,y)- анологчно предыдушему только отсчтет ведется относительно начального положения
+.scrollX
+.scrollY
+.screenX
+.screenY
+4)window.location-contain informatoin about web-page (link)
+attributes of window.location:
+hash after #(#*)
+href- adress
+host-domain
+port-8017
+https-protocol
+search-all after including(?*)
+reload()- refresh page
+assign() -open page by adress that it takes in parances
+5)window.open- имеет сслку видимости на дочернюю страницу
+location.assign()
+6)window.history- просмотр историю в пределах одной вкладки
+methods of window.history:7)
+.go(n)- переход на странцу которая отстоит од данной на n страниц
+.forward()-на одну вперед страницу перход
+.back()-на одну назад
+.leanght- итсоря одной страницу (не браузера)
+7)window.navigator- информация о браузере
+.appCodeName code name of navigator
+.appName- full name of navigator
+.userAgent- http заголовки имя брузера
+.cookieEnabled
+.javaEnabled()
+.onLine
+
+.......................................................
+
+1)"1,2,3".split(",").reduce-возвращает строку
+2)Javscript:ES,BOM,DOM;
+3)DOM -documents obk=ject model - дерево страницы
+4)DOM-elements attribytes text Doctype CDATA Cection
+5)Node -object which contain const for all types of elments in web-page to resolve its type:
+.ELEMNT_NODE
+.TEXT_NODE
+.ATTRIBYTE_NODE
+.DOCUMENT_TYPE_NODE
+.COMMENT_NODE
+6)var a=document.getElementById("first");- element from web-page
+7).innerHTML-получать создавать внутренний html для элемента кусок html без аттрибутаим
+  .outerHTML- кусок html кода с аттрибутаим
+.setAttribute(a,v)-задает фттрибут а со значчением в
+.getAttribyte(a) возращфет значение аттрбута
+.removeAttribyte(a) -удадяет аттрибут
+.value
+.innerText- текск внутри элемента
+.outerText- текск внутри элемента +тэг
+.paкentNode- Свойтсва указыват на объект родительский данному
+.nextSibling-следющий элемент на том же уровне
+.previousSibling
+.childNodes- дочерниц узлы всех типов возращает с тестоввыми узлами
+.childer-вренет чисты текст без узлов с тегами
+.lastchild -дочерний элемент
+.firstChild
+8)var d=document.getElementsByTagName("div")-return collexction of elemnts(not array)!!!
+  document.getElementsByClassName("second")
+  document.qurySelectorAll("body>div .first")
+  window.$$("bosy<div..")
+
+9)DOM манипуляции
+document.createElement("div");
+10)elem.appendChild(el)
+11)elem.insertbefore(e_which,e?_before);
+elem.replacechild(e_new,e_which);
+12)elem.cloneNode()-clne to reffer
+13)elem.removeChild(el) -delte el from elem
+14)el.scrollIntoView-пролестате до места где элемент виден
+15)nodeType
+
+..........................................
+1)document.body.style.backgroundColor="red" -channge color of body html page
+2)$$("div.my") – ищет все элементы в DOM по данному CSS-селектору.
+$("div.my") – ищет первый элемент в DOM по данному CSS-селектору.
+3)
+   for (var i = 0; i < document.body.childNodes.length; i++) {
+      alert( document.body.childNodes[i] ); // Text, DIV, Text, UL, ..., SCRIPT
+    }//выведет всех детей body
+
+4)
+    for (var i = 0; i < document.body.childNodes.length; i++) {
+      alert( document.body.childNodes[i] ); // Text, DIV, Text, UL, ..., SCRIPT
+    }
+5) elem.childNodes[0] === elem.firstChild
+elem.childNodes[elem.childNodes.length - 1] === elem.lastChild
+ 6) childNodes- collection not array
+ 7)for in - only for objects(not arrays)
+ 8) forEach()- only for arrays (not objects)
+ 1)Статические методы и переменные используются  в функция-объектах( new function()) как поля которые хранят общую информацию для всех дочерних  объектов
+2)Фабричные методы используются как конструкторы при условии что не нужен полиморфизм( то есть полиморфизм-это когда мы не знаем кака информация поступает )
+В ффбричных методах мы знаем какя инормация поступает и разьиваем ее на случаи
+3)Замыкание в ананонимных функций позволяяет достучаться до контекста
+
+………………………………………………………………………..
+
+
+1)el.attachevent(“click”,f);
+2)el.detachEvent(“click”,f);
+/*In internet explorer instead of ElementListener*/If(typeof el.attachEvent==”function”){
+}
+else{
+}
+3)Отмена событий по умолчанию
+“click”,function(ev){
+Ev.preventDefault();
+}
+3) Всплытие событий и перехват событий:
+4)ev.stopPropagation();//событие не рапространяется на родительские элементы
+.stopImmediatePropagation();//если на один элемены повешена несколько событий то вызовется тот который без .stopImmediatePropagation();
+5)Эмитация
+6)Конструктор Event
+Var evt=new Event(“click”);
+Elem,addEventListenr(“click”,function(){
+Alert(“kke”);
+}
+Elem.dispatchevent(evt);
+7)evt.isTrasted//проверка являетс ли событие созданно искусственно
+8) К элементу в DOM можно сразу обращаться по айдишнику
+  button.onclick = function() {//id="button"
+    alert( 'Клик!' );
+  };
+9)elem.onclick=Func;//Function exprresson byxt ,без скобок иначе будет undefinrd
+10)document.body.setAttribute('onclick', function() { alert(1) });// now owrking
+//// потому что при назначении в атрибут функция будет преобразована в строку
+11)гравитоционные тела , дома и люди(делали),графики,
+........................................................................................
+                                         Работа с интерфейсом
+1)Измнение стиля
+  leem.style.paddingTop="10px"/*==padding-top:10px*/ //inline style но можно переопределить
+2)
+просмотреть css style of element можно если он БЫЛ ЗАДАН JAVSCRIPTOM
+3)elem.style["padding-top"]="3px";//insline style
+4)elem.style.removeProperty("padding-top");//inline style но можно переопределить
+5)elem.classList(/*methods of object classList:add("cl),.remove("cl"),.continue("cl"),
+.contains("cl")(),.toggle("cl")(добавит если нет удалит есди есть)*/)
+6).isEqualNode(слди два элемента по ссылке одинаковы)
+  .isSameNode(сравнивает типы);
+7) Вычисление сыойств -узнавание свойства заданных в css файлах(not inline style)with help javscript
+   var style=document.defaultView.getComputedStyle(elem,pseudo);
+  style.marginTop//может auto
+8)Смещени размера облавти просмотра
+  elem.offsetTop
+  elem.offsetLeft
+  elem.offsetParent
+9)Область просмотра //height width of elemetn
+  elem.clientWidth
+  elem.clientHeight
+10)elem.getBoundingClientRect()//return an object which constain ограничивающий прямоугодьник
+   This object contain:
+   top,left,width,height
+   right,bottom-спецефичны для конкретного браузера//add to framework
+11)(Css work in console) document.style var first=document.styleSheets[n];first.disabled=true, first.cssRules,
+   var r=first.cssRules[5]
+   r.cssText
+12)canvas:
+ var example = document.getElementById("example"),
+            ctx     = example.getContext('2d');
+    example.width  = 640;
+    example.height = 480;
+      ctx.strokeRect(18, 18, 260, 260);//рамка
+        ctx.fillRect(20, 20, 256, 256);//закрашенный прямоугольник
+
+ .......................................................................................
+ 1)Паттерн проектирования конструкторЖ
+ object obj instanceof House
+ obj.constructor==House
+ 2)У каждого объекта созданного через крснструктор есть свой экземпляр метода(расходы памяти)
+ Чтобы избежать этоого надо вынести з пределы конструктора
+ func=function(){
+ alert("x");
+ }
+ func.apply(obj)
+3)Прототип
+function House(){}
+House.prototype.address="Street";
+House.prototype.square=100;
+House.prototype.func=function(){
+alert("kek");
+}
+var obj =new House();
+obj.address=="Street";
+obj.address="Change"//поле изменется только в объекте
+obj.__proto__ //оращенеи к прототипу
+4)Паттерн Конструктоp&Прототип
+funciton House (sq, addr){
+this.square=sq,
+this.address=addre;}
+House.prototype.func=functoin(){
+alert(this.adress);}
+5)Цепочка прототипов
+function Super(){
+this.field="x";
+}
+funciton subType(){};
+Subtype.prototype=new Syper();
+SubType.prototype.constructor=SubType;
+6)Object.getPrototypeOf(obj);
+obj.hasOwnProperty("name")
+7)Oject.definePropeties(obj,{
+field:{
+value:10
+},
+field2:{
+get:funtion(){
+return this.fiedl1;}.
+set:function(v){
+this.field1=v;}
+})
+8)obj.__difineGettter__(field,function(){
+return 10;});
+obj.fiels2//10
+9)obj__defineSetter__("field2",function(v){
+
+}
+10)Object.keys(obj)//в виде массива
+11)Protect of objects in js
+   a)first level of object protected:
+     Object.preventExtensions(obj)//защита от объекта от расширения
+   б)second level of object protected
+     Object.seal(obj)//нельзя удалять свойства запечатоваиня объекта
+   в)third level of object protect
+     Object.freeze(obj)//нельзя перзаписывать
+12)
