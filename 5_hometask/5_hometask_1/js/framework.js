@@ -1,9 +1,9 @@
-
 ;(function () {
     'use strict';
     function Main_Function() {
         // return "version 0.0.1"; // ...
     }
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     Main_Function.get = function () {
@@ -56,6 +56,9 @@
     };
     Main_Function.copy = function (element) {
         return element.cloneNode(true);//full copy
+    };
+    Main_Function.add_listener = function (element, func, event_type) {
+        element.addEventListener(event_type, func);
     };
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
