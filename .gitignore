@@ -1,5 +1,5 @@
-.idea/
-api/
-github_api_searcher/
-temp/
+.idea/*.*
+api/*.*
+github_api_searcher/*.*
+temp/*.*
 
