@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a56f859-9328-4cb6-980c-22a8accbb322" name="Default" comment="New commit form intelig">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_1/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_1/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_2/css/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_2/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_2/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_2/js/script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/source/javascript/repository_search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/source/javascript/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/source/javascript/users_search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp/js/script1.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/phones.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/script1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/js/singin.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/css/normalize.css" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_1/css/normalize.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/css/reset.css" afterPath="$PROJECT_DIR$/6_hometask/6_hometask_1/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5_hometask/5_hometask_1/js/framework.js" afterPath="$PROJECT_DIR$/5_hometask/5_hometask_1/js/framework.js" />
     </list>
     <ignored path="02Eugene.Motolov.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -131,8 +106,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -695,12 +670,12 @@
       <workItem from="1477919126997" duration="19357000" />
       <workItem from="1478028508528" duration="23700000" />
       <workItem from="1478102951924" duration="5326000" />
-      <workItem from="1478505042711" duration="1596000" />
+      <workItem from="1478505042711" duration="2280000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182520000" />
+    <option name="totallyTimeSpent" value="183204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
@@ -713,7 +688,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="1.0" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37535816" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15153733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1028,8 +1003,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
