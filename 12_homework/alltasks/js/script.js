@@ -3,10 +3,6 @@
 'use strict';
 
 function Application() {
-    //this.div_hash_info = //Почему так не работает
-
-
-    //  console.log(this.div_wrapper);
 }
 
 Application.prototype.create_info = function (info_array) {
@@ -64,11 +60,12 @@ Application.prototype.change = function () {
 
 var application = new Application();
 (function () {
-    //console.log("loacation hsah="+location.hash);
+   
     if (location.hash != "") {
         application.change();
     }
 })();//вызов неявно заданной функции
+
 var minus=document.getElementsByTagName("span")[0];
 //console.log(plus);
 var plus=document.getElementsByTagName("span")[2];
@@ -100,7 +97,8 @@ function add() {
     console.log("Number(quantity.innerText)+1="+(Number(quantity.innerText)+1));
     console.log("(Number(cost.innerText))="+(Number(cost.innerText)));
 }
-
+// minus.addEventListener("click",remove);
+// plus.addEventListener("click",add);
 document.addEventListener("DOMContentLoaded", application.create);
 window.onhashchange = application.change;
 
