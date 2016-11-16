@@ -1,0 +1,17 @@
+[
+  {
+  "name":"Eugen",
+    "age":18,
+    "adress":"Apple"
+  },
+  {
+    "name":"Dima",
+    "age":20,
+    "adress":"Google"
+  },
+  {
+    "name":"Alex",
+    "age":33,
+    "adress":"Oracle"
+  }
+]

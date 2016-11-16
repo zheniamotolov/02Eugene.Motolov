@@ -1,0 +1,14 @@
+[
+  {
+    "name":"Teddybear",
+    "info":"Best toy ever",
+    "image":"img/toy_2.jpg",
+    "cost":"5"
+  },
+  {
+    "name":"Anothertoy",
+    "info":"Better than ipnone",
+    "image":"img/toy_1.jpg",
+    "cost":"7"
+  }
+]

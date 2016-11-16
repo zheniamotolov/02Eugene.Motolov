@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Macbook",
+    "info": "Best sheet",
+    "image": "img/computer_2.jpg",
+    "cost": "2000"
+  },
+  {
+    "name": "Lenovo",
+    "info": "Better than macbook",
+    "image": "img/computer_1.jpg",
+    "cost": "1000"
+  }
+]

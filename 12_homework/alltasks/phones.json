@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Iphone",
+    "info":"Best iphone ever",
+    "image":"./img/1_phone.jpg",
+    "cost":"300"
+  },
+  {
+    "name": "Acer",
+    "info":"Better than ipnone",
+    "image":"./img/2_phone.jpg",
+    "cost":"500"
+
+  }
+]
