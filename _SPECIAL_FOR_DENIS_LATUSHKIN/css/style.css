@@ -1,0 +1,28 @@
+input{
+    /*background-position:;*/
+    /*background-repeat: ;*/
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+}
+#play_pause{
+    background-image: url('../images/play.png'); /* Путь к фоновому изображению */
+
+}
+#stop{
+    background-image: url('../images/stop.png'); /* Путь к фоновому изображению */
+
+}
+#mute_unmute{
+    background-image: url('../images/mute.png'); /* Путь к фоновому изображению */
+}
+#slower{
+    background-image: url('../images/slower.png'); /* Путь к фоновому изображению */
+}
+#faster{
+    background-image: url('../images/faster.png'); /* Путь к фоновому изображению */
+}
+#repeat{
+    background-image: url('../images/repeat.png'); /* Путь к фоновому изображению */
+}
